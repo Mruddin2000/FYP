@@ -1,0 +1,7 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="headerTextSize">25sp</dimen>
+    <dimen name="newsMoreTextSize">18sp</dimen>
+    <dimen name="loginViewsMargin">100dp</dimen>
+    <dimen name="InputText">50dp</dimen>
+</resources>

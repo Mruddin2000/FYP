@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Results.ShowScienceResults"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:padding="20dp"
+    android:background="@drawable/border"
+    android:gravity="center_horizontal">
+    <TextView
+        android:id="@+id/title"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/textColor"
+        android:text="@string/title"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="50pt" />
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textColor"
+        android:layout_marginTop="25dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="35pt"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="50pt"
+        android:layout_height="wrap_content"
+        android:id="@+id/rewards"
+        />
+
+ <TextView
+        android:id="@+id/resultLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textColor"
+        android:textAlignment="center"
+        android:textSize="@dimen/InputTextSize"
+        android:text=""
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/totalScoreLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textColor"
+        android:textAlignment="center"
+        android:textSize="@dimen/InputTextSize"
+        android:text="Total Score : 333"
+        android:layout_marginTop="150dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@color/Button"
+        android:textSize="@dimen/InputTextSize"
+        android:text="Return"
+        android:layout_marginTop="150dp"
+        android:onClick="returnTop"/>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Menu"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/viewResults"
+            android:title="View Test Results" />
+        <item
+            android:id="@+id/monitorBehaviour"
+            android:title="Monitor Behaviour" />
+        <item
+
+            android:id="@+id/learnerMode"
+            android:title="Enter Learner Mode">
+
+        </item>
+        <item android:id="@+id/signOut"
+            android:title="Sign Out">
+
+        </item>
+    </group>
+
+
+
+</menu>

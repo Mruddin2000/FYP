@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_margin="10dp"
+    tools:context=".Learning.LearnFromGuardian">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textColor"
+        android:text="Learn From Guardians"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="45pt" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+       android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+        android:text="Title"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="@dimen/InputTextSize"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgSrc"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_below="@id/txtName"
+        android:background="@drawable/border"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/ic_upload" />
+
+
+
+            <TextView
+
+
+                android:id="@+id/txtDesc"
+                android:layout_width="match_parent"
+                android:layout_height="650dp"
+                android:layout_below="@+id/imgSrc"
+                android:layout_margin="20dp"
+                android:text="Description"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/InputTextSize" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:layout_below="@id/txtDesc"
+        android:background="@color/Button"
+        android:id="@+id/BackBtn"
+        android:onClick="Backbtn"
+        android:text="Back"
+        android:textColor="#000000"
+
+        android:textSize="@dimen/InputTextSize" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:id="@+id/customTest"
+        android:layout_below="@+id/BackBtn"
+        android:onClick="customTest"
+        android:background="@color/Button"
+        android:text="Test"
+        android:textColor="#000000"
+
+        android:textSize="@dimen/InputTextSize" />
+</RelativeLayout>

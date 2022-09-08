@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="250dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Progress Checker"
+        android:background="@drawable/border"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="@dimen/InputTextSizeMobile"
+        android:textStyle="bold">
+
+    </TextView>
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/logo2">
+
+</ImageView>
+</LinearLayout>

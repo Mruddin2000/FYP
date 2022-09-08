@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="20dp"
+    android:padding="20dp"
+    android:background="@drawable/border"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B9C3E8"
+        android:text="Teach Your Own Way"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="45pt" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Title"
+        android:background="@drawable/redborder"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#787878"
+        android:textSize="@dimen/InputTextSize"
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+        android:ems="10" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:clickable="true"
+        android:background="@drawable/redborder"
+        app:srcCompat="@drawable/ic_upload" />
+
+    <EditText
+        android:id="@+id/edtDesc"
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:hint="Enter Description"
+        android:inputType="textPersonName"
+        android:lineSpacingExtra="8sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/redborder"
+        android:minHeight="600dp"
+        android:nestedScrollingEnabled="true"
+        android:padding="15dp"
+        android:text=""
+        android:textColor="#000000"
+        android:textColorHint="#787878"
+        android:textSize="@dimen/InputTextSize"
+        android:ems="10" />
+
+
+
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/Button"
+        android:textColor="#000000"
+        android:layout_margin="10dp"
+        android:text="Add"
+        android:textSize="50dp"
+ />
+
+    <Button
+        android:id="@+id/btnList"
+        android:layout_width="match_parent"
+        android:background="@color/Button"
+        android:textColor="#000000"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:text="View"
+        android:textSize="50dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/Button"
+        android:text="Back"
+        android:onClick="Backbtn"
+        android:textSize="45dp"
+        android:id="@+id/backBtn"
+        android:textColor="#000000"
+        android:layout_margin="10dp"
+        />
+</LinearLayout>

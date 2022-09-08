@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">Progress Checker</string>
+    <string name="ActionbarTitle">Menu</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="title_activity_login2">LoginActivity2</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title">Progress Checker</string>
+    <string name="Mathvalue1title">What is an equation?</string>
+    <string name="Mathvalue1content">When you are solving an equation, you have to move everything except the missing number to one side.
+        \nAnything you do to one side, you must also do to the other. For example: 6 + x = 15. To work out the value of x, first subtract 6 from the left side, 6 + x - 6 = x. Then subtract 6 from the right side too, 15 - 6 = 9. So you are left with x = 9.</string>
+    <string name="Mathvalue2title">Adding and subtracting fractions</string>
+    <string name="Mathvalue2content">It\'s easy to add and subtract fractions when the numbers on the bottom are the same. These are called the denominators.
+        \nHowever, sometimes the denominators are different.
+        \nYou use equivalent fractions to make them the same.
+        \nA common multiple of 2 and 3 is 6. So, for each fraction we need an equivalent fraction with a denominator of 6.
+        \nNow you can add these together.</string>
+    <string name="Mathvalue3title">Percentages</string>
+    <string name="Mathvalue3contnet">The sign % stands for \'per cent\' which means \'out of 100\'.\n\n
+
+40% means 40 out of 100\n\n
+
+11% means 11 out of 100\n\n
+
+To change a percentage to a decimal, divide by 100. Change 48% to a decimal: 48 ÷ 100 = 0.48\n
+
+To change a decimal to a percentage, multiply by 100. Change 0.67 to a percentage: 0.67 x 100 = 67%</string>
+    <string name="MathValue4title">What are factors?</string>
+    <string name="MathValue4content">Factors are numbers that divide exactly into another number.
+        \n \n
+For example, the factors of 8 are:
+\n
+1, 2, 4, 8
+\n
+Factors can be shown in pairs. Each pair multiplies to make 8.
+\n
+The factor pairs of 8 can be shown:
+\n
+1 x 8 = 8
+\
+2 x 4 = 8</string>
+
+    <string name="ScienceTitle1">Types of energy</string>
+    <string name="ScienceContent1">There are two types of energy:
+Renewable
+Non-Renewable.
+        Renewable energy includes solar, hydro and wind energy. Wind energy is made when the wind moves the blades on a wind turbine. This movement creates wind energy which is converted into electrical energy.
+        Non-renewable energy includes coal, gas and oil. Most cars, trains and planes use non-renewable energy. They are made by burning fossil fuels to create energy.
+    </string>
+
+    <string name="ScienceTitle2">Solids, liquids and gases</string>
+    <string name="ScienceContent2"> Solids, liquids and gases are called the three states of matter.
+    Solids
+
+    The properties of solids include:
+
+    Solids stay in one place and can be held.
+    Solids keep their shape. They do not flow like liquids.
+    Solids always take up the same amount of space. They do not spread out like gases.
+    Solids can be cut or shaped.
+    Even though they can be poured, sugar, salt and flour are all solids. Each particle of salt, for example, keeps the same shape and volume.
+    iquids
+
+    The properties of liquids include:
+
+    Liquids can flow or be poured easily. They are not easy to hold.
+    Liquids change their shape depending on the container they are in.
+    Even when liquids change their shape, they always take up the same amount of space. Their volume stays the same.
+    Gases
+
+    The properties of gases include:
+
+    Gases are often invisible.
+    Gases do not have a fixed shape. They spread out and change their shape and volume to fill up whatever container they are in.
+        Gases can be squashed. </string>
+
+    <string name="ScienceTitle3">What is electricity?</string>
+    <string name="ScienceContent3"> Electricity
+    Electricity is created by generators which can be powered by gas, coal, oil, wind or solar.
+
+    The electrical energy can be converted into other types of energy such as light, heat, movement or sound.
+
+    Electricity is dangerous, so be careful when using electrical appliances.</string>
+
+    <string name="ScienceTitle4">Solar System</string>
+    <string name="ScienceContent4">Solar system facts
+
+    The Sun is a star.
+    The Earth is one of eight planets that travel around the Sun.
+    The planets are called Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune.
+        The solar system is also home to lots of asteroids, moons, and dwarf planets such as Pluto.</string>
+
+    <string name="ScienceTitle5">What is the Sun?</string>
+    <string name="ScienceContent5">Sun facts
+
+    The Sun is a star. It gives out heat and light and makes life possible on Earth.
+    The heat and light from the Sun is felt and seen on Earth.
+    Stars are orbited by planets.
+        The Sun is roughly spherical in shape and is much, much bigger than the Earth. 1,300,000 times bigger!</string>
+
+    <string name="ComputingTitle1">What is an algorithm?</string>
+    <string name="ComputingContent1">An algorithm is a set of instructions for solving a problem or accomplishing a task.
+Every computerized device uses algorithms, which cut the time required to do things manually.
+Algorithmic trading, also known as automated trading or black-box trading, uses a computer program to buy or sell securities at a pace not possible for humans.</string>
+
+    <string name="ComputingTitle2">What is the world wide web?</string>
+    <string name="ComputingContent2">The world wide web is a network that connects users aroudn the world to share knwoledge using http/s HyperText Transfer Protocol/Secure.
+
+        Whats the differnece between internet and www?
+
+The internet is a huge network of computers all connected together. The world wide web (‘www’ or ‘web’ for short) is a collection of webpages found on this network of computers. Your web browser uses the internet to access the web.
+    </string>
+
+    <string name="ComputingTitle3">How do computers communicate?</string>
+    <string name="ComputingContent3">Computer uses binary numbers to communicate with each other. the binary numbers are 0 and 1.
+
+Binary number are calculated by hex to find out the total value. see the example below
+
+binary value = 0000
+calculation=    8421
+
+e.g. 1001
+cal 8x1,4x0, 2x0,1x1
+
+ans= 8+0+0+1 = 9
+
+
+</string>
+
+    <string name="ComputingTitle4">What is the ROM?</string>
+    <string name="ComputingContent4">ROM is a non-volatile memory which could retain the data even when power is turned off.
+The CPU cannot access the data stored on it unless the data is stored in RAM.
+The data stored is not as easily accessible as in RAM
+Data stored in ROM can only be read.
+It stores the instructions required during bootstrap of the computer.
+</string>
+
+    <string name="ComputingTitle5">What is the RAM?</string>
+    <string name="ComputingContent5">RAM is a volatile memory which could store the data as long as the power is supplied.
+The CPU can access the data stored on it.
+The data stored is easily accessible
+Data stored in RAM can be retrieved and altered.
+Used to store the data that has to be currently processed by CPU temporarily.
+</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="viewresults">This Graph shows the results of each categories.</string>
+    <string name="monitorBehaviour">This Graph shows the interest of the students as they gradually consumes the Study Contents.</string>
+
+
+</resources>

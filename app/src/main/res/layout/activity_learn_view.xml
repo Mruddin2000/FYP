@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:theme="@style/Theme.AppCompat">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_height="50dp"
+            android:background="@color/textColor"
+            android:text="Learn Maths"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="@dimen/InputTextSizeMobile"
+            android:layout_width="match_parent"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/imageviews"
+        android:layout_marginTop="10dp"
+        />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20pt"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:id="@+id/content_title"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="130pt"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/NextButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@color/Button"
+                android:layout_margin="10dp"
+                android:text="next"
+                android:textColor="#000000"
+                android:textSize="@dimen/InputTextSizeMobile" />
+
+            <Button
+                android:id="@+id/BackBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:onClick="Backbtn"
+                android:background="@color/Button"
+                android:text="Back"
+                android:layout_margin="10dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/InputTextSizeMobile" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

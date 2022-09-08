@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Levels.BeginnerLevel">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30pt"
+        android:background="@color/textColor"
+        android:layout_marginBottom="10pt"
+        android:gravity="center"
+        android:text="@string/title"
+        android:textAlignment="center"
+        android:textSize="@dimen/InputTextSizeMobile"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30pt"
+        android:background="@color/textColor"
+        android:layout_marginBottom="10pt"
+        android:gravity="center"
+        android:id="@+id/subtitle"
+        android:text="Advanced Level"
+        android:textAlignment="center"
+        android:textSize="@dimen/InputTextSizeMobile"
+        />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200pt"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="#CFD3D3"
+        app:cardCornerRadius="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20pt"
+           android:text="Coming Soon"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="20pt"
+            android:padding="10pt"
+            android:id="@+id/text"
+
+           />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/Button"
+        android:text="Back"
+        android:textColor="#000000"
+        android:textSize="@dimen/InputTextSizeMobile" />
+
+
+
+</LinearLayout>

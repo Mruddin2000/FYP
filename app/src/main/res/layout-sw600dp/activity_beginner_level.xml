@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_margin="20dp"
+    tools:context=".Levels.BeginnerLevel">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_height="wrap_content"
+            android:background="@color/textColor"
+            android:text="@string/title"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="50pt" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-20pt"
+        android:layout_weight="1"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/textColor"
+            android:text="Select a Topic"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="35pt" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginBottom="50pt"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/math"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@color/Button"
+            android:text="Maths"
+            android:textColor="#000000"
+            android:textSize="40pt" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginBottom="50pt"
+
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/science"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@color/Button"
+            android:text="Science"
+            android:textColor="#000000"
+            android:textSize="40pt" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginBottom="50pt"
+
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/computing"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@color/Button"
+            android:text="Computing"
+            android:textColor="#000000"
+            android:textSize="40pt" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/Button"
+            android:text="Back"
+            android:id="@+id/backBtn"
+            android:textColor="#000000"
+
+            android:textSize="30pt" />
+    </TableRow>
+</LinearLayout>

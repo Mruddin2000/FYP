@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/border"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    android:layout_margin="20dp">
+    <TextView
+        android:id="@+id/title"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/textColor"
+        android:text="@string/title"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="50pt" />
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textColor"
+        android:layout_marginTop="25dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="35pt"/>
+    <TextView
+        android:id="@+id/countLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textColor"
+        android:textAlignment="center"
+        android:textSize="@dimen/InputTextSize"
+        android:text="Q1"
+
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:id="@+id/questionLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textColor"
+        android:textAlignment="center"
+        android:text="Question"
+        android:textSize="@dimen/InputTextSize"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/answerBtn1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="Answer1"
+        android:textSize="@dimen/InputTextSize"
+        android:background="@color/Button"
+        android:layout_marginTop="150dp"
+        android:onClick="checkAnswer"/>
+
+    <Button
+        android:id="@+id/answerBtn2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="Answer2"
+        android:textSize="@dimen/InputTextSize"
+        android:background="@color/Button"
+        android:layout_marginTop="100dp"
+        android:onClick="checkAnswer"/>
+
+    <Button
+        android:id="@+id/answerBtn3"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="Answer3"
+        android:textSize="@dimen/InputTextSize"
+        android:background="@color/Button"
+        android:layout_marginTop="100dp"
+        android:onClick="checkAnswer"/>
+
+    <Button
+        android:id="@+id/answerBtn4"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="Answer4"
+        android:textSize="@dimen/InputTextSize"
+        android:background="@color/Button"
+        android:layout_marginTop="100dp"
+        android:onClick="checkAnswer"/>
+</LinearLayout>

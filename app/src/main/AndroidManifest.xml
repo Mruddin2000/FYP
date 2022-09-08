@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.progressChecker">
+    <!-- permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity
+            android:name=".Learning.LearnScience"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:exported="false" />
+        <activity
+            android:name=".navigation.sideMenu"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar"
+        />
+
+        <activity
+            android:name=".navigation.sideMenuViewTestResults"
+            android:exported="false"
+        android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity
+            android:name=".navigation.sideMenuMonitorResults"
+            android:exported="false"
+        android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity
+            android:name=".navigation.sideMenuLeanerMode"
+            android:exported="false"
+        android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity
+            android:name=".navigation.leanerSideMenuBeginning"
+            android:exported="false"
+        android:theme="@style/AppTheme.NoActionBar"
+            /><activity
+            android:name=".navigation.leanerSideMenuAdvanced"
+            android:exported="false"
+        android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity
+            android:name=".navigation.leanerSideMenuLearnFromGuardian"
+            android:exported="false"
+        android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity
+            android:name=".navigation.leanerSideMenuTestOwnWay"
+            android:exported="false"
+        android:theme="@style/AppTheme.NoActionBar"
+            />
+
+
+
+
+        <activity
+            android:name=".teachOwnWay.update_Image"
+            android:exported="false" />
+    <activity
+            android:name=".Results.ShowMixedResults"
+        android:theme="@style/Theme.AppCompat.Light"
+            android:exported="false" />
+
+        <activity
+            android:name=".Learning.LearnMaths"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".Learning.LearnFromGuardian"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:exported="false" />
+        <activity android:name=".Test.takeATest"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:exported="false">
+
+        </activity>
+
+        <activity
+            android:name=".teachOwnWay.TeachOwnWay"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:exported="false" />
+
+        <activity
+            android:name=".Learning.LearnComputing"
+android:theme="@style/Theme.AppCompat.Light"
+            android:exported="false" />
+        <activity
+            android:name=".teachOwnWay.ImageList"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:exported="false" />
+        <activity
+            android:name=".Test.ScienceTest"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:exported="false" />
+        <activity
+            android:name=".Test.MathTest"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:exported="false" />
+        <activity
+            android:name=".Test.ComputingTest"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:exported="false" />
+        <activity
+            android:name=".LoginAndRegistration.Forgotpass"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:exported="false" />
+        <activity
+            android:name=".Results.ShowScienceResults"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:exported="false" />
+        <activity
+            android:name=".Results.ShowMathResults"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:exported="false" />
+        <activity
+            android:name=".Results.ShowComputingResults"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:exported="false" />
+
+        <activity
+            android:name=".LoginAndRegistration.RegisterActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginAndRegistration.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

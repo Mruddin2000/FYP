@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:background="@drawable/border"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".LearnerMode">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_height="wrap_content"
+            android:background="#B9C3E8"
+            android:text="Welcome to Project Checker"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="45pt" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#B9C3E8"
+            android:text="Select your level and start exploring "
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="35pt" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50pt"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/BeginnerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@color/Button"
+            android:text="Beginner"
+            android:textColor="#000000"
+            android:textSize="40pt" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50pt"
+        android:layout_weight="1"
+
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/AdvancedBtn"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@color/Button"
+            android:text="Advanced"
+            android:textColor="#000000"
+            android:textSize="40pt" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50pt"
+        android:layout_weight="1"
+
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/takeTestBtn"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@color/Button"
+            android:onClick="TakeATest"
+            android:text="Test Yourself"
+            android:textColor="#000000"
+            android:textSize="40pt" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/LeanerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/btn3"
+            android:background="@color/Button"
+            android:text="Learn From your Guardian"
+            android:textColor="#000000"
+            android:textSize="40pt" />
+    </TableRow>
+
+</LinearLayout>
